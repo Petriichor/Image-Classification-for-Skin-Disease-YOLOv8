@@ -53,7 +53,7 @@ Struktur direktori Anda harus terlihat persis seperti ini agar *notebook* dapat 
 ├── 📁 SkinDisease/                  <-- Folder dataset hasil ekstrak dari Kaggle
 │   ├── 📁 train/
 │   └── 📁 test/
-└── 📁 NAMA_REPO_LU/                 <-- Folder repositori hasil clone
+└── 📁 Image-Classification-for-Skin-Disease-Yolov8/                 <-- Folder repositori hasil clone
     ├── 📝 yolo.ipynb                <-- Notebook yang akan dieksekusi
     ├── 📝 README.md
     └── 📝 requirements.txt
