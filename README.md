@@ -43,7 +43,21 @@ pip install -r requirements.txt
 ### 4. Siapkan Dataset
 Karena alasan privasi dan batasan ukuran *file*, dataset citra medis tidak disertakan dalam repositori ini. 
 1. Download dataset dari Kaggle (https://www.kaggle.com/datasets/pacificrm/skindiseasedataset)
-2. Ubah variabel `dataset_path` di dalam *notebook* (`yolo.ipynb`) ke *absolute path* di mana folder dataset Anda berada.
+2. Ekstrak *file* hasil unduhan. Pastikan nama foldernya adalah `SkinDisease`.
+3. Letakkan folder `SkinDisease` tersebut **sejajar (di luar)** folder repositori ini. 
+
+Struktur direktori Anda harus terlihat persis seperti ini agar *notebook* dapat langsung dijalankan tanpa mengubah kode:
+
+```text
+📁 Direktori_Kerja_Anda/
+├── 📁 SkinDisease/                  <-- Folder dataset hasil ekstrak dari Kaggle
+│   ├── 📁 train/
+│   └── 📁 test/
+└── 📁 NAMA_REPO_LU/                 <-- Folder repositori hasil clone
+    ├── 📝 yolo.ipynb                <-- Notebook yang akan dieksekusi
+    ├── 📝 README.md
+    └── 📝 requirements.txt
+```
 
 ### 5. Eksekusi Jupyter Notebook
 Jalankan server Jupyter dari terminal Anda:
