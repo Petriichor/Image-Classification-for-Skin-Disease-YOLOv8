@@ -1,0 +1,13 @@
+# Dataset
+dataset/
+download*.jpeg
+images.jpeg
+
+# YOLO stuff
+runs/
+*.pt
+
+# Python caches
+__pycache__/
+*.ipynb_checkpoints/
+.DS_Store
